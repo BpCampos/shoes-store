@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Lato&family=Open+Sans:wght@400;600;700&display=swap');
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 9px 20px;
+}
+
+.links {
+    font-family: sans-serif;
+    display: flex;
+    margin-right: 40px;
+    gap: 26px;
+    font-weight: 400;
+}
+
+.links a {
+    color: #777777;
+    font-size: 1.4vw;
+}
+
+.banner {
+    width: 100%;
+}
