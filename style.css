@@ -1,207 +1,204 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Lato&family=Open+Sans:wght@400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Lato&family=Open+Sans:wght@400;600;700&display=swap");
 
 header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    box-shadow: 0px -3px 7px rgb(124, 124, 124) inset;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px -3px 7px rgb(124, 124, 124) inset;
 }
 
 .logo {
-    width: 13vw;
-    margin: 9px 20px;
+  width: 13vw;
+  margin: 9px 20px;
 }
 
 .links {
-    font-family: sans-serif;
-    display: flex;
-    margin-right: 40px;
-    gap: 26px;
-    font-weight: 400;
+  font-family: sans-serif;
+  display: flex;
+  margin-right: 40px;
+  gap: 26px;
+  font-weight: 400;
 }
 
 .links a {
-    color: #777777;
-    font-size: 1.4vw;
-    transition: 0.3s;
+  color: #777777;
+  font-size: 1.4vw;
+  transition: 0.3s;
 }
 
 .links a:hover {
-    transform: scale(1.1);
-    color: rgb(146, 100, 15);
+  transform: scale(1.1);
+  color: rgb(146, 100, 15);
 }
 
 .banner {
-    width: 100%;
+  width: 100%;
 }
 
 .estilos {
-    margin-bottom: 190px;
+  margin-bottom: 190px;
 }
 
 .estilos h1 {
-    text-align: center;
-    font-size: 3vw;
-    margin: 55px 0;
-    font-family: sans-serif;
-    font-weight: bold;
+  text-align: center;
+  font-size: 3vw;
+  margin: 55px 0;
+  font-family: sans-serif;
+  font-weight: bold;
 }
 
 .imagem-estilos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .estilo1 {
-    max-width: 650px;
-    max-height: 780px;
-    width: auto;
-    height: auto;
+  max-width: 650px;
+  max-height: 780px;
+  width: auto;
+  height: auto;
 }
 
 .estilo2 {
-    max-width:650px;
-    max-height:780px;
-    width: auto;
-    height: auto;
-    padding-left: 50px;
+  max-width: 650px;
+  max-height: 780px;
+  width: auto;
+  height: auto;
+  padding-left: 50px;
 }
 
 .discount {
-    background-color: #C2185B;
-    height: 100%;
+  background-color: #c2185b;
+  height: 100%;
 }
 
 .discount h1 {
-    color: white;
-    font-size: 2.5vw;
-    text-align: center;
-    padding: 70px 0;
-    font-family: sans-serif;
-    font-weight: bold;
+  color: white;
+  font-size: 2.5vw;
+  text-align: center;
+  padding: 70px 0;
+  font-family: sans-serif;
+  font-weight: bold;
 }
 
 .discount-shoes {
-    display: flex;
-    gap: 65px;
-    justify-content: center;
-    flex-wrap: wrap;
+  display: flex;
+  gap: 65px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .shoes {
-    font-family: sans-serif;
-    font-weight: 600;
-    background-color: white;
-    margin-bottom: 100px;
-    border-radius: 10px;
+  font-family: sans-serif;
+  font-weight: 600;
+  background-color: white;
+  margin-bottom: 100px;
+  border-radius: 10px;
 }
 
 .shoes img {
-    height: 388px;
+  height: 388px;
 }
 
 .shoes-description {
-    padding: 11px 0px 30px 9px;
+  padding: 11px 0px 30px 9px;
 }
 
 .shoes-description p {
-    margin-bottom: 9px;
+  margin-bottom: 9px;
 }
 
 .model {
-    display: flex;
-    width: 1080px;
-    margin: 0 auto;
-    padding-top: 100px;
-
+  display: flex;
+  width: 1080px;
+  margin: 0 auto;
+  padding-top: 100px;
 }
 
 .model-shoes {
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }
 
 .model-shoes button {
-    background-color: #C2185B;
-    width: 60%;
-    color: white;
-    font-size: 2vw;
-    padding: 20px 0;
-    font-family: sans-serif;
-    font-weight: bold;
-    margin-bottom: 40px;
+  background-color: #c2185b;
+  width: 60%;
+  color: white;
+  font-size: 2vw;
+  padding: 20px 0;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-bottom: 40px;
 }
 .model-shoes h1 {
-    font-family: sans-serif;
-    width: 100%;
-    font-size: 2vw;
-    line-height: 50px;
-    font-weight: bold;
-    padding-bottom: 15px;
+  font-family: sans-serif;
+  width: 100%;
+  font-size: 2vw;
+  line-height: 50px;
+  font-weight: bold;
+  padding-bottom: 15px;
 }
 
 .model-shoes img {
-    height: 798px;
+  height: 798px;
 }
 
 .model-image {
-    display: flex;
-    padding-left: 30px;
-    justify-content: end;
+  display: flex;
+  padding-left: 30px;
+  justify-content: end;
 }
 
 footer {
-    display: flex;
-    background-color: #C2185B;
-    height: 100%;
-    justify-content: space-around;
-    align-items: center;
-    font-family: sans-serif;
-    padding: 50px 0;
-    margin-top: 100px;
+  display: flex;
+  background-color: #c2185b;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  font-family: sans-serif;
+  padding: 50px 0;
+  margin-top: 100px;
 }
 
 .footer-logo {
-    width: 400px;
-    margin-left: 100px;
+  width: 400px;
+  margin-left: 100px;
 }
 
 .footer-logo img {
-    width: 50%;
+  width: 50%;
 }
 
 .footer-logo p {
-    position: relative;
-    width: 60%;
-    color: white;
-    bottom: 20px;
-    left: 10px;
-    line-height: 20px;
+  position: relative;
+  width: 60%;
+  color: white;
+  bottom: 20px;
+  left: 10px;
+  line-height: 20px;
 }
 
 .footer-categorias {
-    color: white;
-    line-height: 22px;
+  color: white;
+  line-height: 22px;
 }
 
-.footer-categorias li:nth-child(1){
-    font-size: 1.3vw;
-    margin-bottom: 5px;
+.footer-categorias li:nth-child(1) {
+  font-size: 1.3vw;
+  margin-bottom: 5px;
 }
 
 .footer-institucional {
-    color: white;
-    line-height: 22px;
-    margin-top: 20px;  
-    margin-right: 300px; 
+  color: white;
+  line-height: 22px;
+  margin-top: 20px;
+  margin-right: 300px;
 }
 
 .footer-institucional li:nth-child(1) {
-    font-size: 1.3vw;
-    margin-bottom: 5px;
+  font-size: 1.3vw;
+  margin-bottom: 5px;
 }
-
-
