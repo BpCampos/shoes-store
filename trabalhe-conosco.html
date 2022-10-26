@@ -20,9 +20,49 @@
         </div>
     </header>
     <main>
-        <h1>Faça parte do nosso time</h1>
-        <form action="">
-            
+        <form class="trabalhe-conosco" action="">
+            <h1>Faça parte do nosso time</h1>
+            <div class="input-wrapper">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+            <div class="input-wrapper">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div class="input-wrapper">    
+                <label for="tel">Telefone</label>
+                <input type="tel" name="tel" id="tel">
+            </div>
+            <div class="input-wrapper">
+                <label for="departamento">Departamento</label>
+                <Select>
+                    <option value="Selecione" disabled selected>Selecione</option>
+                    <option value="Fin">Financeiro</option>
+                    <option value="Mkt">Marketing</option>
+                    <option value="Ti">Front-end</option>
+                </Select>
+            </div>
+            <p>Disponibilidade</p>
+            <div class="input-row">
+                <label for="integral"><input type="checkbox" name="periodo" value="integral">Integral(8h)</label>
+                <label for="integral"><input type="checkbox" name="periodo" value="meio-periodo">Meio período(4h)</label>
+                <label for="integral"><input type="checkbox" name="periodo" value="freelancer">Freelancer</label>
+            </div>
+            <p class="forma-contato">Qual a melhor forma para entrarmos em contato com você?</p>
+            <div class="input-row">
+                <label class="radio" for="email"><input type="radio" name="forma-contato" id="">Email</label>
+                <label class="radio" for="ligacao"><input type="radio" name="forma-contato" id="">Ligação</label>
+                <label class="radio-whatsapp" for="whatsapp"><input type="radio" name="forma-contato" id="">Whatstapp</label>
+            </div>
+            <div class="input-wrapper">
+                <label class="mensagem" for="mensagem">Mensagem</label>
+                <textarea name="mensagem" id="mensagem" cols="20" rows="4"></textarea>
+            </div>
+            <div class="input-wrapper">
+                <label for="curriculo">Curriculo<input type="file" name="curriculo" id="curriculo"></label>
+            </div>
+            <button class="enviar" type="submit">Enviar</button>
         </form>
     </main>
     <footer>

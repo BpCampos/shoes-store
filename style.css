@@ -202,3 +202,85 @@ footer {
   font-size: 1.3vw;
   margin-bottom: 5px;
 }
+
+/* Parte do formulário */
+
+.trabalhe-conosco {
+  width: 50%;
+  margin: 60px auto;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  border: 1px solid black;
+  padding: 30px 80px;
+  box-shadow: 2px 2px 7px 2px rgba(131, 130, 130, .4);
+  color: #777777;
+}
+
+.trabalhe-conosco label, p {
+  font-weight: bold;
+}
+
+.trabalhe-conosco h1 {
+  text-align: center;
+  font-size: 40px;
+  color: rgb(90, 90, 90);
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.input-wrapper label {
+  margin-bottom: 3px;
+}
+
+.input-wrapper select {
+  border: 1px solid rgb(139, 139, 139);
+  padding: 2px 0;
+}
+
+.input-wrapper textarea {
+  border: 1px solid gray;
+  resize: vertical;
+}
+
+.mensagem {
+  margin-top: 16px;
+}
+
+.input-row {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.input-row label {
+  font-weight: 400;
+}
+
+.forma-contato {
+  margin-top: 13px;
+}
+
+.radio {
+  margin-right: 41px;
+}
+
+.radio-whatsapp {
+  margin-left: 23px;
+}
+
+#curriculo {
+  margin-left: 10px;
+}
+
+.enviar {
+  color: white;
+  background-color: #c2185b;
+  padding: 10px;
+  font-weight: bold;
+}
+
