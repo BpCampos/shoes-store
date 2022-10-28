@@ -5,6 +5,7 @@ header {
   align-items: center;
   justify-content: space-between;
   box-shadow: 0px -3px 7px rgb(124, 124, 124) inset;
+  width: 100%;
 }
 
 .logo {
@@ -198,10 +199,11 @@ footer {
   margin-right: 300px;
 }
 
-.footer-institucional li:nth-child(1) {
+.footer-institucional li:nth-last-child(7) {
   font-size: 1.3vw;
   margin-bottom: 5px;
 }
+
 
 /* Parte do formulário */
 
@@ -245,6 +247,7 @@ footer {
 .input-wrapper textarea {
   border: 1px solid gray;
   resize: vertical;
+  max-height: 200px;
 }
 
 .mensagem {
@@ -274,8 +277,10 @@ footer {
   margin-left: 23px;
 }
 
-#curriculo {
+#curriculo::-webkit-file-upload-button {
   margin-left: 10px;
+  background-color: #cfcdcd;
+  padding: 9px;
 }
 
 .enviar {
@@ -283,5 +288,6 @@ footer {
   background-color: #c2185b;
   padding: 10px;
   font-weight: bold;
+  width: 100%;
 }
 
