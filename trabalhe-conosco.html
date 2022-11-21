@@ -1,96 +1,119 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="./js/main.js" defer></script>
     <title>Trabalhe conosco</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="logo">
-            <a href="index.html"><img src="./image/shoes-logo-2.png" alt=""></a>
-        </div>
-        <div class="links">
-            <a href="">TODOS OS PRODUTOS</a>
-            <a href="">COLEÇÕES</a>
-            <a href="">OUTLET</a>
-        </div>
+      <div class="logo">
+        <a href="index.html"><img src="./image/shoes-logo-2.png" alt="" /></a>
+      </div>
+      <div class="links">
+        <a href="">TODOS OS PRODUTOS</a>
+        <a href="">COLEÇÕES</a>
+        <a href="">OUTLET</a>
+      </div>
     </header>
     <main>
-        <form class="trabalhe-conosco" action="">
-            <h1>Faça parte do nosso time</h1>
-            <div class="input-wrapper">
-                <label for="nome">Nome</label>
-                <input type="text" name="nome" id="nome" required>
-            </div>
-            <div class="input-wrapper">
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email" required>
-            </div>
-            <div class="input-wrapper">    
-                <label for="tel">Telefone</label>
-                <input type="tel" name="tel" id="tel">
-            </div>
-            <div class="input-wrapper">
-                <label for="departamento">Departamento</label>
-                <Select>
-                    <option value="Selecione" disabled selected>Selecione</option>
-                    <option value="Fin">Financeiro</option>
-                    <option value="Mkt">Marketing</option>
-                    <option value="Ti">Front-end</option>
-                </Select>
-            </div>
-            <p>Disponibilidade</p>
-            <div class="input-row">
-                <label for="integral"><input type="checkbox" name="periodo" value="integral">Integral(8h)</label>
-                <label for="integral"><input type="checkbox" name="periodo" value="meio-periodo">Meio período(4h)</label>
-                <label for="integral"><input type="checkbox" name="periodo" value="freelancer">Freelancer</label>
-            </div>
-            <p class="forma-contato">Qual a melhor forma para entrarmos em contato com você?</p>
-            <div class="input-row">
-                <label class="radio" for="email"><input type="radio" name="forma-contato" id="">Email</label>
-                <label class="radio" for="ligacao"><input type="radio" name="forma-contato" id="">Ligação</label>
-                <label class="radio-whatsapp" for="whatsapp"><input type="radio" name="forma-contato" id="">Whatstapp</label>
-            </div>
-            <div class="input-wrapper">
-                <label class="mensagem" for="mensagem">Mensagem</label>
-                <textarea name="mensagem" id="mensagem" cols="20" rows="4" placeholder="Escreva sua mensagem"></textarea>
-            </div>
-            <div class="input-wrapper">
-                <label for="curriculo">Curriculo<input type="file" name="curriculo" id="curriculo"></label>
-            </div>
-            <button class="enviar" type="submit">Enviar</button>
-        </form>
+      <form class="trabalhe-conosco" action="">
+        <h1>Faça parte do nosso time</h1>
+        <div class="input-wrapper">
+          <label for="nome">Nome</label>
+          <input type="text" name="nome" id="nome" required />
+        </div>
+        <div class="input-wrapper">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" required />
+        </div>
+        <div class="input-wrapper">
+          <label for="tel">Telefone</label>
+          <input type="tel" name="tel" id="tel" />
+        </div>
+        <div class="input-wrapper">
+          <label for="departamento">Departamento</label>
+          <select>
+            <option value="Selecione" disabled selected>Selecione</option>
+            <option value="Fin">Financeiro</option>
+            <option value="Mkt">Marketing</option>
+            <option value="Ti">Front-end</option>
+          </select>
+        </div>
+        <p>Disponibilidade</p>
+        <div class="input-row">
+          <label for="integral"
+            ><input type="checkbox" name="periodo" value="integral" />Integral(8h)</label
+          >
+          <label for="integral"
+            ><input type="checkbox" name="periodo" value="meio-periodo" />Meio período(4h)</label
+          >
+          <label for="integral"
+            ><input type="checkbox" name="periodo" value="freelancer" />Freelancer</label
+          >
+        </div>
+        <p class="forma-contato">Qual a melhor forma para entrarmos em contato com você?</p>
+        <div class="input-row">
+          <label class="radio" for="email"
+            ><input type="radio" name="forma-contato" id="" />Email</label
+          >
+          <label class="radio" for="ligacao"
+            ><input type="radio" name="forma-contato" id="" />Ligação</label
+          >
+          <label class="radio-whatsapp" for="whatsapp"
+            ><input type="radio" name="forma-contato" id="" />Whatstapp</label
+          >
+        </div>
+        <div class="input-wrapper">
+          <label class="mensagem" for="mensagem">Mensagem</label>
+          <textarea
+            name="mensagem"
+            id="mensagem"
+            cols="20"
+            rows="4"
+            placeholder="Escreva sua mensagem"></textarea>
+        </div>
+        <div class="input-wrapper">
+          <label for="curriculo"
+            >Curriculo<input type="file" name="curriculo" id="curriculo"
+          /></label>
+        </div>
+        <button class="enviar" type="submit">Enviar</button>
+      </form>
     </main>
     <footer>
-        <div class="footer-logo">
-            <img src="./image/shoes-logo-white-1.png" alt="">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-        </div>
-        <div class="footer-categorias">
-            <ul> 
-                <li>categorias</li>
-                <li>sandálias</li>
-                <li>botas</li>
-                <li>tênis</li>
-                <li>oxford</li>
-                <li>coturnos</li>
-            </ul>
-        </div>
-        <div class="footer-institucional">
-            <ul>
-                <li>institucional</li>
-                <li>sobre nós</li>
-                <li>perguntas frequentes</li>
-                <li>politica de privacidade</li>
-                <li>rastreamento de pedidos</li>
-                <a href="trabalhe-conosco.html"><li>trabalhe conosco</li></a>
-                <li>contato</li>
-            </ul>
-        </div>
+      <div class="footer-logo">
+        <img src="./image/shoes-logo-white-1.png" alt="" />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et dolore magna aliqua.
+        </p>
+      </div>
+      <div class="footer-categorias">
+        <ul>
+          <li>categorias</li>
+          <li>sandálias</li>
+          <li>botas</li>
+          <li>tênis</li>
+          <li>oxford</li>
+          <li>coturnos</li>
+        </ul>
+      </div>
+      <div class="footer-institucional">
+        <ul>
+          <li>institucional</li>
+          <li>sobre nós</li>
+          <li>perguntas frequentes</li>
+          <li>politica de privacidade</li>
+          <li>rastreamento de pedidos</li>
+          <a href="trabalhe-conosco.html"><li>trabalhe conosco</li></a>
+          <li>contato</li>
+        </ul>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
